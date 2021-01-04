@@ -3,5 +3,46 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-  }
+    "ng-bttv": {
+      "projectType": "library",
+      "root": "projects/ng-bttv",
+      "sourceRoot": "projects/ng-bttv/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "tsConfig": "projects/ng-bttv/tsconfig.lib.json",
+            "project": "projects/ng-bttv/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/ng-bttv/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ng-bttv/src/test.ts",
+            "tsConfig": "projects/ng-bttv/tsconfig.spec.json",
+            "karmaConfig": "projects/ng-bttv/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ng-bttv/tsconfig.lib.json",
+              "projects/ng-bttv/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "ng-bttv"
 }
