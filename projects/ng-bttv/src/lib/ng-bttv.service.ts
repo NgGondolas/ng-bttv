@@ -55,8 +55,8 @@ export class NgBttvService {
         return `${this.getBaseURL() + EMOTES.forsenCD}/${size}x`;
     }
 
-    public getPogO(size: number | string): string {
-        return `${this.getBaseURL() + EMOTES.PogO}/${size}x`;
+    public getPogOh(size: number | string): string {
+        return `${this.getBaseURL() + EMOTES.PogOh}/${size}x`;
     }
 
     public getYEPP(size: number | string): string {

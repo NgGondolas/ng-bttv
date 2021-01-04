@@ -10,7 +10,7 @@ export enum EMOTES {
     monkaPickle = '5f242002fe85fb4472d1bdd2',
     weirdChamp = '5d20a55de1cfde376e532972',
     forsenCD = '5d3e250a6d68672adc3fbff7',
-    PogO = '5e9cdca974046462f7673006',
+    PogOh = '5e9cdca974046462f7673006',
     YEPP = '5e978e20d023b362f638339d',
     EZ = '5590b223b344e2c42a9e28e3',
     pepeLaugh = '59b73909b27c823d5b1f6052',
