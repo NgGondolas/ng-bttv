@@ -1,12 +1,9 @@
+import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { NgBttvComponent } from './ng-bttv.component';
-
-
+import { NgBttvService } from './ng-bttv.service';
 
 @NgModule({
-  declarations: [NgBttvComponent],
-  imports: [
-  ],
-  exports: [NgBttvComponent]
+    imports: [CommonModule],
+    providers: [NgBttvService],
 })
-export class NgBttvModule { }
+export class NgBttvModule {}
