@@ -7,136 +7,136 @@ import {EMOTES} from './emote-defaults.enum';
 export class NgBttvService {
     constructor() { }
 
-    static getBaseURL(): string {
+    public static getBaseURL(): string {
         return 'https://cdn.betterttv.net/emote/';
     }
 
-    static getEmote(id: string, size: number | string): string {
+    public static getEmote(id: string, size: number | string): string {
         return `${this.getBaseURL() + id}/${size}x`;
     }
 
-    static getOMEGALUL(size: number | string): string {
+    public static getOMEGALUL(size: number | string): string {
         return `${this.getBaseURL() + EMOTES.OMEGALUL}/${size}x`;
     }
 
-    static getPogU(size: number | string): string {
+    public static getPogU(size: number | string): string {
         return `${this.getBaseURL() + EMOTES.PogU}/${size}x`;
     }
 
-    static getSadge(size: number | string): string {
+    public static getSadge(size: number | string): string {
         return `${this.getBaseURL() + EMOTES.Sadge}/${size}x`;
     }
 
-    static getZULUL(size: number | string): string {
+    public static getZULUL(size: number | string): string {
         return `${this.getBaseURL() + EMOTES.ZULUL}/${size}x`;
     }
 
-    static getOkayge(size: number | string): string {
+    public static getOkayge(size: number | string): string {
         return `${this.getBaseURL() + EMOTES.Okayge}/${size}x`;
     }
 
-    static getMonkaW(size: number | string): string {
+    public static getMonkaW(size: number | string): string {
         return `${this.getBaseURL() + EMOTES.monkaW}/${size}x`;
     }
 
-    static getLULW(size: number | string): string {
+    public static getLULW(size: number | string): string {
         return `${this.getBaseURL() + EMOTES.LULW}/${size}x`;
     }
 
-    static getMonkaPickle(size: number | string): string {
+    public static getMonkaPickle(size: number | string): string {
         return `${this.getBaseURL() + EMOTES.monkaPickle}/${size}x`;
     }
 
-    static getWeirdChamp(size: number | string): string {
+    public static getWeirdChamp(size: number | string): string {
         return `${this.getBaseURL() + EMOTES.weirdChamp}/${size}x`;
     }
 
-    static getForsenCD(size: number | string): string {
+    public static getForsenCD(size: number | string): string {
         return `${this.getBaseURL() + EMOTES.forsenCD}/${size}x`;
     }
 
-    static getPogO(size: number | string): string {
+    public static getPogO(size: number | string): string {
         return `${this.getBaseURL() + EMOTES.PogO}/${size}x`;
     }
 
-    static getYEPP(size: number | string): string {
+    public static getYEPP(size: number | string): string {
         return `${this.getBaseURL() + EMOTES.YEPP}/${size}x`;
     }
 
-    static getEZ(size: number | string): string {
+    public static getEZ(size: number | string): string {
         return `${this.getBaseURL() + EMOTES.EZ}/${size}x`;
     }
 
-    static getPepeLaugh(size: number | string): string {
+    public static getPepeLaugh(size: number | string): string {
         return `${this.getBaseURL() + EMOTES.pepeLaugh}/${size}x`;
     }
 
-    static getFeelsWeirdMan(size: number | string): string {
+    public static getFeelsWeirdMan(size: number | string): string {
         return `${this.getBaseURL() + EMOTES.FeelsWeirdMan}/${size}x`;
     }
 
-    static getForsenSmug(size: number | string): string {
+    public static getForsenSmug(size: number | string): string {
         return `${this.getBaseURL() + EMOTES.forsenSmug}/${size}x`;
     }
 
-    static getPagMan(size: number | string): string {
+    public static getPagMan(size: number | string): string {
         return `${this.getBaseURL() + EMOTES.PagMan}/${size}x`;
     }
 
-    static getMEGALUL(size: number | string): string {
+    public static getMEGALUL(size: number | string): string {
         return `${this.getBaseURL() + EMOTES.MEGALUL}/${size}x`;
     }
 
-    static getPajaThink(size: number | string): string {
+    public static getPajaThink(size: number | string): string {
         return `${this.getBaseURL() + EMOTES.pajaThink}/${size}x`;
     }
 
-    static getGachiGASM(size: number | string): string {
+    public static getGachiGASM(size: number | string): string {
         return `${this.getBaseURL() + EMOTES.gachiGASM}/${size}x`;
     }
 
     // BELOW THIS COMMENT ARE GIFS
-    static getForsenPls(size: number | string): string {
+    public static getForsenPls(size: number | string): string {
         return `${this.getBaseURL() + EMOTES.forsenPls}/${size}x`;
     }
 
-    static getFEELSWAYTOOGOOD(size: number | string): string {
+    public static getFEELSWAYTOOGOOD(size: number | string): string {
         return `${this.getBaseURL() + EMOTES.FEELSWAYTOOGOOD}/${size}x`;
     }
 
-    static getHACKERMANS(size: number | string): string {
+    public static getHACKERMANS(size: number | string): string {
         return `${this.getBaseURL() + EMOTES.HACKERMANS}/${size}x`;
     }
 
-    static getForsenSWA(size: number | string): string {
+    public static getForsenSWA(size: number | string): string {
         return `${this.getBaseURL() + EMOTES.forsenSWA}/${size}x`;
     }
 
-    static getWAYTOODANK(size: number | string): string {
+    public static getWAYTOODANK(size: number | string): string {
         return `${this.getBaseURL() + EMOTES.WAYTOODANK}/${size}x`;
     }
 
-    static getMonkaE(size: number | string): string {
+    public static getMonkaE(size: number | string): string {
         return `${this.getBaseURL() + EMOTES.monkaE}/${size}x`;
     }
 
-    static getForsenDiscoSnake(size: number | string): string {
+    public static getForsenDiscoSnake(size: number | string): string {
         return `${this.getBaseURL() + EMOTES.forsenDiscoSnake}/${size}x`;
     }
 
-    static getGondolaPls(size: number | string): string {
+    public static getGondolaPls(size: number | string): string {
         return `${this.getBaseURL() + EMOTES.gondolaPls}/${size}x`;
     }
 
-    static getNODDERS(size: number | string): string {
+    public static getNODDERS(size: number | string): string {
         return `${this.getBaseURL() + EMOTES.NODDERS}/${size}x`;
     }
 
-    static getTeaTime(size: number | string): string {
+    public static getTeaTime(size: number | string): string {
         return `${this.getBaseURL() + EMOTES.TeaTime}/${size}x`;
     }
 
-    static getWEEBSDETECTED(size: number | string): string {
+    public static getWEEBSDETECTED(size: number | string): string {
         return `${this.getBaseURL() + EMOTES.WEEBSDETECTED}/${size}x`;
     }
 }

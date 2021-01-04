@@ -1,6 +1,6 @@
 {
     "name": "@nggondolas/ng-bttv",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Angular Service for fetching BTTV emotes",
     "author": "Jaime 'Gondola' Oliveira <jaime.amo18@gmail.com>",
     "license": "MIT",
