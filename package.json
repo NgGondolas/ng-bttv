@@ -24,9 +24,10 @@
     "scripts": {
         "ng": "ng",
         "start": "ng serve",
-        "build": "ng build",
+        "build": "ng build ng-bttv --prod",
         "test": "ng test",
-        "lint": "ng lint"
+        "lint": "ng lint",
+        "bnp": "npm run build && cd dist/ng-bttv && npm publish && cd -"
     },
     "private": false,
     "dependencies": {
