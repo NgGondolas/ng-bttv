@@ -1,16 +1,37 @@
 {
-  "name": "@nggondolas/ng-bttv",
-  "version": "0.0.1",
-  "license": "MIT",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org",
-    "access": "public"
-  },
-  "peerDependencies": {
-    "@angular/common": "^11.0.5",
-    "@angular/core": "^11.0.5"
-  },
-  "dependencies": {
-    "tslib": "^2.0.0"
-  }
+    "name": "@nggondolas/ng-bttv",
+    "version": "1.0.0",
+    "description": "Angular Service for fetching BTTV emotes",
+    "author": "Jaime 'Gondola' Oliveira <jaime.amo18@gmail.com>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/NgGondolas/ng-bttv.git"
+    },
+    "bugs": {
+        "url": "https://github.com/NgGondolas/ng-bttv/issues"
+    },
+    "homepage": "https://github.com/NgGondolas/ng-bttv/#readme",
+    "keywords": [
+        "angular2",
+        "angular",
+        "javascript",
+        "bttv",
+        "twitch",
+        "emotes",
+        "forsen"
+    ],
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org",
+        "access": "public"
+    },
+    "sideEffects": false,
+    "private": false,
+    "peerDependencies": {
+        "@angular/common": "^11.0.5",
+        "@angular/core": "^11.0.5"
+    },
+    "dependencies": {
+        "tslib": "^2.0.0"
+    }
 }
